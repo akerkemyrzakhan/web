@@ -1,0 +1,8 @@
+<h1>Vacancy List</h1>
+<div *ngFor="let vacancy of vacancies">
+  <a>{{ vacancy.name }}</a>
+  <p>                    </p>
+  {{vacancy.description}}<br>
+  {{vacancy.salary}}
+</div>
+<button routerLink="">goBack</button>
